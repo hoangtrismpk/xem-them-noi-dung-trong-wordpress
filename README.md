@@ -2,6 +2,8 @@ Copy toàn bộ file vô Funtions của Wordpress là xài.
 
 <img width="976" height="587" alt="Screenshot 2025-07-23 173227" src="https://github.com/user-attachments/assets/c8315782-0036-448c-ac3d-b393405767e4" />
 
+Nếu xài Version 2
+
 Điều chỉnh số dòng giới hạn để rút gọn tại, ví dụ ngắt 3 dòng thì sẽ bắt đầu ẩn các thông số còn lại.
  $visible_limit = 3;
 
@@ -12,3 +14,7 @@ Nếu nội dung quá dài có thể bị cắt ở cuối thì chỉnh số c�
 .td-post-content.active .hidden-part {
     max-height: 50000px;
 }
+
+Nếu xài Version 1
+
+Chỉ cần đổi Class .td-post-content cho đúng với theme đang xài là chạy
